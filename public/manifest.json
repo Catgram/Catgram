@@ -1,6 +1,6 @@
 {
-  "name": "Pixelfed",
-  "short_name": "Pixelfed",
+  "name": "Catgram",
+  "short_name": "Catgram",
   "start_url": "/?source=pwa",
   "display": "standalone",
   "background_color": "#f5f8fa",
