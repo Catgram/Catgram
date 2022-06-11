@@ -109,7 +109,7 @@
             </p>
             <p class="text-center text-muted font-weight-bold h4 mb-0">{{__('helpcenter.directMessages')}}</p>
             <div class="text-center pt-3">
-              <p class="small text-dark font-weight-bold mb-0">How do I use Pixelfed Direct?</p>
+              <p class="small text-dark font-weight-bold mb-0">How do I use Catgram Direct?</p>
               <p class="small text-dark font-weight-bold mb-0">How do I unsend a message?</p>
             </div>
           </div>

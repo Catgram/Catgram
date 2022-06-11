@@ -7,7 +7,7 @@
   </div>
   <hr>
   <section>
-    <p class="lead">Developers can use Pixelfed APIs to build rich experiences and extend Pixelfed in new ways.</p>
+    <p class="lead">Developers can use Catgram APIs to build rich experiences and extend Catgram in new ways.</p>
     <div class="row pt-5">
       <div class="col-12 col-md-6 pb-3">
         <div class="card">
@@ -27,7 +27,7 @@
       </div>
       <div class="col-12 col-md-6 pb-3">
         <div class="card">
-          <div class="card-header font-weight-bold">PIXELFED API <span class="badge badge-primary">v1.1</span></div>
+          <div class="card-header font-weight-bold">CATGRAM API <span class="badge badge-primary">v1.1</span></div>
           <div class="card-body">
             <ul class="pl-2 font-weight-bold text-muted">
               <li>Classic REST API</li>
