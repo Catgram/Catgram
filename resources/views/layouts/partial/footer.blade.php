@@ -11,7 +11,7 @@
           <a href="{{route('site.language')}}" class="text-dark p-2">{{__('site.language')}}</a>
         </p>
         <p class="text-center text-muted small mb-0">
-          <span class="text-muted">© {{date('Y')}}. <a href="https://github.com/catgram/catgram" target="_blank" class="text-muted font-weight-bold" rel="noopener">Gram</a></span>
+          <span class="text-muted">© {{date('Y')}}. <a href="https://github.com/catgram/catgram" target="_blank" class="text-muted font-weight-bold" rel="noopener">Catgram</a></span>
           <span class="mx-2">·</span>
           <a href="https://pixelfed.org" target="_blank" rel="noopener">Pixelfed</a> v{{config('pixelfed.version')}}
         </p>
