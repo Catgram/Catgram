@@ -4,7 +4,7 @@
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="csrf-token" content="{{ csrf_token() }}">
 
 	<meta name="mobile-web-app-capable" content="yes">
@@ -15,7 +15,7 @@
 	<meta property="og:title" content="{{ config('app.name', 'pixelfed') }}">
 	<meta property="og:type" content="article">
 	<meta property="og:url" content="{{request()->url()}}">
-	<meta property="og:description" content="Federated Image Sharing">
+	<meta property="og:description" content="Federated Cat Media Sharing">
 
 	<meta name="medium" content="image">
 	<meta name="theme-color" content="#10c5f8">
@@ -50,8 +50,8 @@
 			<div class="row pt-md-5 mt-5">
 				<div class="col-12 col-md-6 d-none d-md-block">
 					<div class="m-my-4">
-						<p class="display-2 font-weight-bold">Photo Sharing</p>
-						<p class="h1 font-weight-bold">For Everyone.</p>
+						<p class="display-2 font-weight-bold">Cat Sharing</p>
+						<p class="h1 font-weight-bold">For Meows.</p>
 					</div>
 				</div>
 				<div class="col-12 col-md-5 offset-md-1">
@@ -61,12 +61,12 @@
 							<span class="font-weight-bold h3 ml-2 pt-2">Pixelfed</span>
 						</div>
 						<div class="d-block d-md-none">
-							<p class="font-weight-bold mb-0 text-center">Photo Sharing. For Everyone</p>
+							<p class="font-weight-bold mb-0 text-center">Cat Sharing. For Meows</p>
 						</div>
 						<div class="card my-4 shadow-none border">
 							<div class="card-body px-lg-5">
 								<div class="text-center">
-									<p class="small text-uppercase font-weight-bold text-muted">Account Login</p>
+									<p class="small text-uppercase font-weight-bold text-muted">Meow Login</p>
 								</div>
 								<div>
 									<form class="px-1" method="POST" action="{{ route('login') }}" id="login_form">
