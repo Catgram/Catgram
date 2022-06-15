@@ -222,7 +222,7 @@
 					<div class="section-spacer"></div>
 					<p class="display-4 font-weight-bold mb-0">
 						<a class="text-primary" href="/register">Sign up today</a>
-						and join our community of photographers from around the world.
+						and join our community of famous web cats from around the world.
 					</p>
 					@endif
 				</div>
