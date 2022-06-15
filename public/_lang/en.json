@@ -148,11 +148,11 @@
         "add": "Add Story"
     },
     "timeline": {
-        "peopleYouMayKnow": "People you may know",
+        "peopleYouMayKnow": "Cats you may know",
         "onboarding": {
             "welcome": "Welcome",
             "thisIsYourHomeFeed": "This is your home feed, a chronological feed of posts from accounts you follow.",
-            "letUsHelpYouFind": "Let us help you find some interesting people to follow",
+            "letUsHelpYouFind": "Let us help you find some interesting cats to follow",
             "refreshFeed": "Refresh my feed"
         }
     },
@@ -164,7 +164,7 @@
         "selectReason": "Select a reason",
         "reported": "Reported",
         "sendingReport": "Sending report",
-        "thanksMsg": "Thanks for the report, people like you help keep our community safe!",
+        "thanksMsg": "Thanks for the report, cats like you help keep our community safe!",
         "contactAdminMsg": "If you'd like to contact an administrator about this post or report"
     }
 }

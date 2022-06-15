@@ -214,7 +214,7 @@
 				<div class="col">
 					<p class="display-3 font-weight-bold">
 						<span class="text-primary">{{$user_count}}</span>
-						people have shared
+						cats have shared
 						<span class="text-primary">{{$post_count}}</span>
 						photos and videos on {{config_cache('app.name')}}!
 					</p>
