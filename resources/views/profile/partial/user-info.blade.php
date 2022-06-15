@@ -12,7 +12,7 @@
             <span class="font-weight-ultralight h1">{{$user->username}}</span>
             @if($is_admin == true)
             <span class="pl-4">
-              <span class="btn btn-outline-danger font-weight-bold py-0">ADMIN</span>
+              <span class="btn btn-outline-danger font-weight-bold py-0">CATMIN</span>
             </span>
             @endif
             @if($owner == true)
@@ -56,14 +56,14 @@
           <div class="profile-stats pb-3 d-inline-flex lead">
             <div class="font-weight-light pr-5">
               <a class="text-dark" href="{{$user->url()}}">
-              <span class="font-weight-bold">{{$user->statusCount()}}</span> 
+              <span class="font-weight-bold">{{$user->statusCount()}}</span>
               Posts
               </a>
             </div>
             @if($settings->show_profile_follower_count)
             <div class="font-weight-light pr-5">
               <a class="text-dark" href="{{$user->url('/followers')}}">
-              <span class="font-weight-bold">{{$user->followerCount(true)}}</span> 
+              <span class="font-weight-bold">{{$user->followerCount(true)}}</span>
               Followers
               </a>
             </div>
@@ -71,14 +71,14 @@
             @if($settings->show_profile_following_count)
             <div class="font-weight-light pr-5">
               <a class="text-dark" href="{{$user->url('/following')}}">
-              <span class="font-weight-bold">{{$user->followingCount(true)}}</span> 
+              <span class="font-weight-bold">{{$user->followingCount(true)}}</span>
               Following
               </a>
             </div>
             @endif
           </div>
           <p class="lead mb-0 d-flex align-items-center">
-            <span class="font-weight-bold pr-3">{{$user->name}}</span> 
+            <span class="font-weight-bold pr-3">{{$user->name}}</span>
             @if($user->remote_url)
             <span class="btn btn-outline-secondary btn-sm py-0">REMOTE PROFILE</span>
             @endif
