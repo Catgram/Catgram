@@ -9,6 +9,7 @@
           <a href="{{route('site.terms')}}" class="text-dark p-2">{{__('site.terms')}}</a>
           <a href="{{route('site.privacy')}}" class="text-dark p-2">{{__('site.privacy')}}</a>
           <a href="{{route('site.language')}}" class="text-dark p-2">{{__('site.language')}}</a>
+          <a href="https://ko-fi.com/Catgram" target="_blank" class="text-dark p-2">Donate</a>
         </p>
         <p class="text-center text-muted small mb-0">
           <span class="text-muted">© {{date('Y')}}. <a href="https://github.com/catgram/catgram" target="_blank" class="text-muted font-weight-bold" rel="noopener">Catgram</a></span>
